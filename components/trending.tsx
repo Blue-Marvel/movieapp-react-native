@@ -35,8 +35,6 @@ const TrendingItems: FC<{ items: HomeHostData; activeItem: string }> = ({
   activeItem: acitveItem,
 }) => {
   const [play, setPlay] = useState(false);
-  console.log(items.video);
-
   return (
     <Animatable.View
       className="mr-5"
